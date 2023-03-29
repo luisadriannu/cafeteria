@@ -11,8 +11,6 @@ html {
   font-family: Raleway;
   scroll-behavior: smooth;
 }
-header {
-}
 
 * {
   margin: 0;
@@ -898,9 +896,6 @@ header {
 .copyright p {
   font-weight: 400;
   font-size: 1.6rem;
-}
-
-.active {
 }
 
 /* Media queries tablet*/
