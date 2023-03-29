@@ -163,6 +163,10 @@ header {
   position: relative;
 }
 
+.menu a:hover {
+  color: var(--white-color);
+}
+
 .menu-desktop a {
   text-decoration: none;
   font-size: 1.3rem;
@@ -170,18 +174,6 @@ header {
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
-}
-
-.menu a::after {
-  content: "";
-  width: 1.5rem;
-  height: 1px;
-  background-color: var(--white-color);
-  position: absolute;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  opacity: 0;
   transition: all 0.3s ease;
 }
 
@@ -206,7 +198,7 @@ header {
   opacity: 1;
 }
 
-.menu a:hover {
+.menu-desktop a:hover {
   color: var(--white-color);
 }
 
